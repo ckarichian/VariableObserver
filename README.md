@@ -15,7 +15,7 @@ var bank = new VariableObserver();
 bank.add('currentColor','Green').onChange(function(newVal, oldVal) { console.log('The currentColor was changed from '+oldVal+' to '+newVal)  });
 ```
 4. Change your variable as much as you want:
- ```javascript
+```javascript
 bank.currentColor = 'Red' // The currentColor was changed from Green to Red
 ```
 5. Or read the variable as much as you want:
